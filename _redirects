@@ -1,0 +1,6 @@
+# Redirects for proxying assets to the original site (backup fallback)
+/models/*  https://oryzo.ai/models/:splat  200!
+/textures/*  https://oryzo.ai/textures/:splat  200!
+/images/*  https://oryzo.ai/images/:splat  200!
+/fonts/*  https://oryzo.ai/fonts/:splat  200!
+/splats/*  https://oryzo.ai/splats/:splat  200!

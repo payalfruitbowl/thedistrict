@@ -1,0 +1,34 @@
+# Netlify configuration
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/models/*"
+  to = "https://oryzo.ai/models/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/textures/*"
+  to = "https://oryzo.ai/textures/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/images/*"
+  to = "https://oryzo.ai/images/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/fonts/*"
+  to = "https://oryzo.ai/fonts/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/splats/*"
+  to = "https://oryzo.ai/splats/:splat"
+  status = 200
+  force = true
